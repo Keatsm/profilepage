@@ -1,0 +1,125 @@
+body{
+  background-image: url("https://wallpapercave.com/wp/wp2757880.gif");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+
+.heading{
+  float: left;
+  color: lightgrey;
+  font-family: 'Nunito', sans-serif;
+  font-size: 30px; 
+  padding: 20px;
+  padding-left: 20%;
+  top: 50%;  
+  margin: 0 auto;
+  border-right: 2px solid rgba(255,255,255,.75);
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;  
+}
+
+.anim-typing{
+  animation: typing 4s steps(44) 1s 1 normal both, blinking 500ms steps(44) infinite normal;
+}
+
+@keyframes typing{
+  from{
+    width: 0;
+    }
+  to{
+    width: 300px;
+    }
+
+}
+@keyframes blinking{
+  from{
+    border-right-color: rgba(255,255,255,.75);
+    }
+  to{
+    border-right-color: transparent;
+}
+}
+
+#top {
+  width: 100%;
+  height: 10%;
+  position: sticky;
+  top: 0px;
+  z-index: 3;
+}
+
+#introBox{
+  position: relative;
+  left: 20%;
+  top: 20px;
+  width: 20%;
+  height: 800px;
+}
+
+#meBox{
+  position: relative;
+  left: 60%;
+  top: -780px;
+  width: 20%;
+  height: 800px;
+}
+
+.glass {
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+  border-radius: 5px;
+  background: inherit;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.glass:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+  filter: blur(100px);
+  z-index: -1;
+}
+
+
+h2{
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  font-size: 25px;
+  padding-left: 5%;
+}
+
+p{
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+  padding-left: 5%;
+}
+
+li{
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+  padding-left: 5%;
+  padding-top: 10px;
+}
+
+.icon{
+  float: right;
+  size: 10px;
+  padding-right: 20%;
+  z-index: 2;
+}
+
+.image{
+  z-index: 5;
+}
+
+
